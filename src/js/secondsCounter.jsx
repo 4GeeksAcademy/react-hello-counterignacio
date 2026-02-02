@@ -2,9 +2,7 @@ import React from "react";
 
 const SecondsCounter = ({ seconds }) => {
   return (
-    <div style={{ fontSize: "40px", textAlign: "center" }}>
-      Segundos: {seconds}
-    </div>
+    <div style={{ fontSize: "2rem", textAlign: "center", marginTop: "2rem" }}>{seconds}</div>
   );
 };
 
