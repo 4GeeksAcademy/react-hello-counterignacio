@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+.counter-container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    gap: 10px;
+    font-family: monospace;
+}
+
+.counter-box {
+    background-color: #111;
+    color: white;
+    font-size: 60px;
+    width: 80px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
