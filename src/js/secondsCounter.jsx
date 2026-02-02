@@ -1,8 +1,9 @@
+import React from "react";
+
 const SecondsCounter = ({ seconds }) => {
   return (
-    <div>
-      <h1>Segundos desde que cargó la página:</h1>
-      <p>{seconds}</p>
+    <div style={{ fontSize: "40px", textAlign: "center" }}>
+      Segundos: {seconds}
     </div>
   );
 };
